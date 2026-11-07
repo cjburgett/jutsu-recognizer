@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='christopher-burgett',
     maintainer_email='christopher.burgett@gmail.com',
-    description='TODO: Package description',
+    description='Few-shot hand sign classifier: crops hands from camera frames, embeds them with DINOv2 and matches against a taught prototype bank.',
     license='Apache-2.0',
     extras_require={
         'test': [

@@ -1,0 +1,23 @@
+# Colcon workspace artifacts (created under jutsu_ws/, listed here in case of mis-builds)
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Recorded data and bags (keep out of git)
+*.mcap
+*.bag
+*.db3
+data/
+
+# Editor / OS
+.cursor/
+.vscode/
+*.swp
+.DS_Store
